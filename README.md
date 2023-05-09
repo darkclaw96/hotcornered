@@ -11,20 +11,20 @@ Features:
 
 Each separate monitor needs a separate section in the config:
 >[monitor_name]
-># monitor name can be found using *xrandr*
-># resolution of the display
+>; monitor name can be found using *xrandr*
+>; resolution of the display
 >width = 1920
 >height = 1080
 >hot_corner_size = 0.01 # percentage of the resolution
-># Top-left corner
+>; Top-left corner
 >tl_command = "polybar-msg cmd toggle" 
 >tl_timeout = 500
-># Top-right corner
+>; Top-right corner
 >tr_command = "echo 'Hot corner undefined' | yad --text-info --close-on-unfocus"
 >tr_timeout = 500
-># Bottom-left corner
+>; Bottom-left corner
 >bl_command = "echo 'Hot corner undefined' | yad --text-info --close-on-unfocus"
 >bl_timeout = 500
-># Bottom-right corner
+>; Bottom-right corner
 >br_command = "echo 'Hot corner undefined' | yad --text-info --close-on-unfocus"
 >br_timeout = 500
