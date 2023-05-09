@@ -34,3 +34,5 @@ bl_timeout = 500 # milliseconds
 br_command = "echo 'Hot corner undefined' | yad --text-info --close-on-unfocus"
 br_timeout = 500 # milliseconds
 ```
+
+Inspired by: https://github.com/ens1/cornered
