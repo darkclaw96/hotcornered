@@ -9,7 +9,8 @@ Features:
 - Multi-monitor support
 - Individual hot corners for separate monitors
 
-Each separate monitor needs a separate section in the config:```
+Each separate monitor needs a separate section in the config:
+```ini
 [monitor_name]
 # monitor name can be found using *xrandr*
 # resolution of the display
